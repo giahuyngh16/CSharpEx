@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xHc9SD94pCj7rGDI5V6X56ZJdvxTmhZcNGc2LwcHBJ6q8edynPOL89mZ4SLiBEtU/T8HXZlm94SJ5Yf2FXx5lw==",
+  "success": true,
+  "projectFilePath": "D:\\Roadmap\\ExampleCSharp\\ExampleCSharp\\ExampleCSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\huy.nguyengia\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.26\\microsoft.netcore.app.host.win-x64.3.1.26.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+D:\Roadmap\ExampleCSharp\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.exe
+D:\Roadmap\ExampleCSharp\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.deps.json
+D:\Roadmap\ExampleCSharp\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.runtimeconfig.json
+D:\Roadmap\ExampleCSharp\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.runtimeconfig.dev.json
+D:\Roadmap\ExampleCSharp\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.dll
+D:\Roadmap\ExampleCSharp\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.pdb
+D:\Roadmap\ExampleCSharp\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.csproj.AssemblyReference.cache
+D:\Roadmap\ExampleCSharp\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Roadmap\ExampleCSharp\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.AssemblyInfoInputs.cache
+D:\Roadmap\ExampleCSharp\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.AssemblyInfo.cs
+D:\Roadmap\ExampleCSharp\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.csproj.CoreCompileInputs.cache
+D:\Roadmap\ExampleCSharp\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.dll
+D:\Roadmap\ExampleCSharp\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.pdb
+D:\Roadmap\ExampleCSharp\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.genruntimeconfig.cache

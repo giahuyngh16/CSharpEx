@@ -12,3 +12,17 @@ D:\Roadmap\ExampleCSharp\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.csp
 D:\Roadmap\ExampleCSharp\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.dll
 D:\Roadmap\ExampleCSharp\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.pdb
 D:\Roadmap\ExampleCSharp\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.genruntimeconfig.cache
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.csproj.AssemblyReference.cache
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.AssemblyInfoInputs.cache
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.AssemblyInfo.cs
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.csproj.CoreCompileInputs.cache
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.dll
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.pdb
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.exe
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.deps.json
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.runtimeconfig.json
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.runtimeconfig.dev.json
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.dll
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.pdb
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.genruntimeconfig.cache

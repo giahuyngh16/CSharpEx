@@ -50,6 +50,6 @@ namespace ExampleCSharp
             Console.WriteLine(msg);
         }
 
-        public void 
+        //public void 
     }
 }

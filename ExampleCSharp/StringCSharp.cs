@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace ExampleCSharp
@@ -115,25 +116,63 @@ namespace ExampleCSharp
 
         public void CompareStringAndStringBuilder()
         {
-            Stopwatch s1 = Stopwatch.StartNew();
-            string x = "";
-            for (int i = 0; i < 200000; i++)
-            {
-                x += "!";
-            }
-            s1.Stop();
-            Console.WriteLine($"Time taken in string concatenation: {s1.ElapsedMilliseconds} MS");
+            ObjectIDGenerator idGenerator1 = new ObjectIDGenerator();
+            bool flag = new bool();
 
+            Stopwatch s1 = Stopwatch.StartNew();
+            String str = "Sun";
+            Console.WriteLine("String = {0}", str);
+            Console.WriteLine("Instance Id : {0}", idGenerator1.GetId(str, out flag));
+            //flag will be True for new instance otherwise it will be False
+            Console.WriteLine("This instance is new : {0}\n", flag);
+            //concatenating strings
+            str += " rises";
+            Console.WriteLine("String = {0}", str);
+            Console.WriteLine("Instance Id : {0}", idGenerator1.GetId(str, out flag));
+            Console.WriteLine("this instance is new : {0}\n", flag);
+            str += " in";
+            Console.WriteLine("String = {0}", str);
+            Console.WriteLine("Instance Id : {0}", idGenerator1.GetId(str, out flag));
+            Console.WriteLine("this instance is new : {0}\n", flag);
+            str += " the";
+            Console.WriteLine("String = {0}", str);
+            Console.WriteLine("Instance Id : {0}", idGenerator1.GetId(str, out flag));
+            Console.WriteLine("this instance is new : {0}\n", flag);
+            str += " east";
+            Console.WriteLine("String = {0}", str);
+            Console.WriteLine("Instance Id : {0}", idGenerator1.GetId(str, out flag));
+            Console.WriteLine("this instance is new : {0}\n", flag);
+
+            s1.Stop();
+            Console.WriteLine($"Time taken in string concatenation: {s1.ElapsedMilliseconds} MS \n");
+
+            Console.WriteLine($"------------------------ \n");
+            //initializing string using StringBuilder
             Stopwatch s2 = Stopwatch.StartNew();
-            StringBuilder builder = new StringBuilder();
-            for (int i = 0; i < 200000; i++)
-            {
-                builder.Append("!");
-            }
-            x = builder.ToString();
+            StringBuilder stringBuilder = new StringBuilder("Sun");
+            ObjectIDGenerator idGenerator2 = new ObjectIDGenerator();
+            Console.WriteLine("StringBuilder = {0}", stringBuilder);
+            Console.WriteLine("Instance Id : {0}", idGenerator2.GetId(stringBuilder, out flag));
+            Console.WriteLine("This instance is new : {0}\n", flag);
+            stringBuilder.Append(" rises");
+            Console.WriteLine("StringBuilder = {0}", stringBuilder);
+            Console.WriteLine("Instance Id : {0}", idGenerator2.GetId(stringBuilder, out flag));
+            Console.WriteLine("This instance is new : {0}\n", flag);
+            stringBuilder.Append(" in");
+            Console.WriteLine("StringBuilder = {0}", stringBuilder);
+            Console.WriteLine("Instance Id : {0}", idGenerator2.GetId(stringBuilder, out flag));
+            Console.WriteLine("This instance is new : {0}\n", flag);
+            stringBuilder.Append(" the");
+            Console.WriteLine("StringBuilder = {0}", stringBuilder);
+            Console.WriteLine("Instance Id : {0}", idGenerator2.GetId(stringBuilder, out flag));
+            Console.WriteLine("This instance is new : {0}\n", flag);
+            stringBuilder.Append(" east");
+            Console.WriteLine("StringBuilder = {0}", stringBuilder);
+            Console.WriteLine("Instance Id : {0}", idGenerator2.GetId(stringBuilder, out flag));
+            Console.WriteLine("This instance is new : {0}\n", flag);
             s2.Stop();
             Console.WriteLine($"Time taken in StringBuilder concatenation: {s2.ElapsedMilliseconds} MS");
         }
-        
+
     }
 }

@@ -26,3 +26,17 @@ C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\bin\Debug\net
 C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.dll
 C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.pdb
 C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.genruntimeconfig.cache
+D:\Roadmap\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.exe
+D:\Roadmap\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.deps.json
+D:\Roadmap\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.runtimeconfig.json
+D:\Roadmap\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.runtimeconfig.dev.json
+D:\Roadmap\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.dll
+D:\Roadmap\CSharpEx\ExampleCSharp\bin\Debug\netcoreapp3.1\ExampleCSharp.pdb
+D:\Roadmap\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.csproj.AssemblyReference.cache
+D:\Roadmap\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Roadmap\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.AssemblyInfoInputs.cache
+D:\Roadmap\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.AssemblyInfo.cs
+D:\Roadmap\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.csproj.CoreCompileInputs.cache
+D:\Roadmap\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.dll
+D:\Roadmap\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.pdb
+D:\Roadmap\CSharpEx\ExampleCSharp\obj\Debug\netcoreapp3.1\ExampleCSharp.genruntimeconfig.cache

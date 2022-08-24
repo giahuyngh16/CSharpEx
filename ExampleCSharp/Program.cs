@@ -38,10 +38,13 @@ namespace ExampleCSharp
 
 
             #region Ref-Out
-            RefOutWithParameters.OutTryGet();
-            RefOutWithParameters.RefValueType();
-            RefOutWithParameters.RefReferenceType();
+            //RefOutWithParameters.OutTryGet();
+            //RefOutWithParameters.RefValueType();
+            //RefOutWithParameters.RefReferenceType();
             #endregion
+
+            StringCSharp str = new StringCSharp();
+            str.CompareStringAndStringBuilder();
         }
     }
 }

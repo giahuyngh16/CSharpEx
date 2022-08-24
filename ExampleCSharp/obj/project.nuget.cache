@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c72snHo7Y0xiA3oJUHuqS3AsODfGoP+r409eUzR90yRANDOGV6ecVaRAW/wsLKMNuDe/FXOX1UQyceOXHZBdcQ==",
+  "dgSpecHash": "z1jPDbetYS1/YmJP9Olb1Ij3rkWDAtbf6fZM+5Xx8Qoa2zLXBar3KsDkhKAKKDbLcW675O1PVZ54zY2M0q+uKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\truc.nguyen\\Desktop\\STS-Studies\\C#\\CSharpEx\\ExampleCSharp\\ExampleCSharp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\truc.nguyen\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
-    "C:\\Users\\truc.nguyen\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\truc.nguyen\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\truc.nguyen\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Roadmap\\CSharpEx\\ExampleCSharp\\ExampleCSharp.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

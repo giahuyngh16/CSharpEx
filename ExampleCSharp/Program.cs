@@ -7,26 +7,11 @@ namespace ExampleCSharp
     {
         static void Main(string[] args)
         {
-            ValueTypeAndReferenceType type = new ValueTypeAndReferenceType();
-
-            // Value Type 
-            //int num1 = 5;
-            //int num2 = 10;
-            //Console.WriteLine(num1 + " " + num2);
-            //type.Square(num1, num2);
-            //Console.WriteLine(num1 + " " + num2);
-            //Console.WriteLine("Press Enter Key to Exit..");
-
-            // Ref Type 
-            //Person p1 = new Person();
-            //Person p2 = new Person();
-            //p1.age = 5;
-            //p2.age = 10;
-            //Console.WriteLine(p1.age + " " + p2.age);
-            //type.SquareRef(p1, p2);
-            //Console.WriteLine(p1.age + " " + p2.age);
-            //Console.WriteLine("Press Any Key to Exit..");
-            //Console.ReadLine();
+            #region Value-Reference Type
+            ValueReferenceType.ReferenceTypeWithString();
+            ValueReferenceType.ReferenceTypeWithObject();
+            ValueReferenceType.ValueType();
+            #endregion
 
 
             //ReadOnly

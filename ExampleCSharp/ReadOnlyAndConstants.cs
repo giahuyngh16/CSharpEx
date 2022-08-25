@@ -6,9 +6,9 @@ namespace ExampleCSharp
 {
     public class ReadOnlyAndConstants
     {
+        const string myConstant = "Constants are cool!";
         public double Circumference(double radius)
         {
-            const string myConstant = "Constants are cool!";
 
             return 2 * System.Math.PI * radius;
         }

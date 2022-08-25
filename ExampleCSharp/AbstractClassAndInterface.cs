@@ -71,4 +71,28 @@ namespace ExampleCSharp
             Console.WriteLine("Build a House");
         }
     }
+
+    interface IShape
+    {
+        int GetArea();
+        int GetPerimeter();
+    }
+
+    class Rectangle: IShape
+    {
+        int a;
+        int b;
+
+        public int GetArea()
+        {
+            return a ^ b ;
+        }
+
+        public int GetPerimeter()
+        {
+            return (a + b) * 2;
+        }
+    }
+
+
 }

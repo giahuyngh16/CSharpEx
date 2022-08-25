@@ -28,8 +28,29 @@ namespace ExampleCSharp
             //RefOutWithParameters.RefReferenceType();
             #endregion
 
-            StringCSharp str = new StringCSharp();
-            str.CompareStringAndStringBuilder();
+            //StringCSharp str = new StringCSharp();
+            //str.CompareStringAndStringBuilder();
+
+            // abstract 
+            AbstractJob job1 = new JavaCoding();
+            job1.DoJob();
+            string jobName1 = job1.GetJobName();
+            Console.WriteLine("Job Name 1= " + jobName1);
+
+            AbstractJob job2 = new CSharpCoding();
+            job2.DoJob();
+            string jobName2 = job2.GetJobName();
+            Console.WriteLine("Job Name 2= " + jobName2);
+
+            AbstractJob job = new CSharpCoding();
+            job.DoSomething();
+            string jobName= job2.GetJobName();
+            Console.WriteLine("Job Name 2= " + jobName);
+
+            AbstractJob job3 = new BuildHouse();
+            job3.DoJob();
+            String jobName3 = job3.GetJobName();
+            Console.WriteLine("Job Name 3= " + jobName3);
         }
     }
 }

@@ -13,7 +13,6 @@ namespace ExampleCSharp
             // ValueReferenceType.ValueType();
             #endregion
 
-
             //ReadOnly
             //SampleClass s1 = new SampleClass(11, 21, 32);   // OK
             //Console.WriteLine("p1: x={0}, y={1}, z={2}", s1.x, s1.y, s1.z);
@@ -26,6 +25,7 @@ namespace ExampleCSharp
             //RefOutWithParameters.OutTryGet();
             //RefOutWithParameters.RefValueType();
             //RefOutWithParameters.RefReferenceType();
+            //RefOutWithParameters.Resize();
             #endregion
 
             //StringCSharp str = new StringCSharp();
@@ -55,10 +55,10 @@ namespace ExampleCSharp
             //UsingAndDispose usi = new UsingAndDispose();
             //usi.UseUsing();
 
-            using (var myDisposable = new MyDisposable())
-            {
-                myDisposable.DoSomething();
-            }
+            //using (var myDisposable = new MyDisposable())
+            //{
+            //    myDisposable.DoSomething();
+            //}
         }
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\AbstractClassAndInterface\bin\Debug\netcoreapp3.1\AbstractClassAndInterface.deps.json
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\AbstractClassAndInterface\bin\Debug\netcoreapp3.1\AbstractClassAndInterface.dll
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\AbstractClassAndInterface\bin\Debug\netcoreapp3.1\AbstractClassAndInterface.pdb
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\AbstractClassAndInterface\obj\Debug\netcoreapp3.1\AbstractClassAndInterface.csproj.AssemblyReference.cache
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\AbstractClassAndInterface\obj\Debug\netcoreapp3.1\AbstractClassAndInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\AbstractClassAndInterface\obj\Debug\netcoreapp3.1\AbstractClassAndInterface.AssemblyInfoInputs.cache
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\AbstractClassAndInterface\obj\Debug\netcoreapp3.1\AbstractClassAndInterface.AssemblyInfo.cs
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\AbstractClassAndInterface\obj\Debug\netcoreapp3.1\AbstractClassAndInterface.csproj.CoreCompileInputs.cache
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\AbstractClassAndInterface\obj\Debug\netcoreapp3.1\AbstractClassAndInterface.dll
+C:\Users\truc.nguyen\Desktop\STS-Studies\C#\CSharpEx\AbstractClassAndInterface\obj\Debug\netcoreapp3.1\AbstractClassAndInterface.pdb

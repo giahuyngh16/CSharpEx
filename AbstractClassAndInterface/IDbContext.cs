@@ -1,0 +1,12 @@
+﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
+using System.Threading.Tasks;
+
+namespace AbstractClassAndInterface
+{
+    public interface IDbContext
+    {
+        int SaveChanges();
+        Task<int> SaveChangesAsync();
+        EntityEntry Add(object entity);
+    }
+}

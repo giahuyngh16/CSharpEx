@@ -9,19 +9,19 @@ namespace ExampleCSharp
         public static void ReferenceTypeWithString()
         {
             Console.WriteLine("--- Reference Type With String ---");
-            String s1 = "String1";
-            String s2 = "String1";
+            string s1 = "String1";
+            string s2 = "String1";
             Console.WriteLine("s1 = \"String1\";\ns2 = \"String1\";");
-            Console.WriteLine("=> ReferenceEquals(s1, s2): " + Object.ReferenceEquals(s1, s2));
-            Console.WriteLine($"=> s1({s1}) interned: {(String.IsNullOrEmpty(String.IsInterned(s1)) ? "No" : "Yes")}");
+            Console.WriteLine("=> ReferenceEquals(s1, s2): " + ReferenceEquals(s1, s2));
+            Console.WriteLine($"=> s1({s1}) interned: {(string.IsNullOrEmpty(string.IsInterned(s1)) ? "No" : "Yes")}");
 
             Console.WriteLine();
-            String suffix = "A";
-            String s3 = "String" + suffix;
-            String s4 = "String" + suffix;
+            string suffix = "A";
+            string s3 = "String" + suffix;
+            string s4 = "String" + suffix;
             Console.WriteLine("suffix = \"A\";\ns3 = \"String\" + suffix;\ns4 = \"String\" + suffix;");
-            Console.WriteLine("=> ReferenceEquals(s3, s4): " + Object.ReferenceEquals(s3, s4));
-            Console.WriteLine($"=> s3({s3}) interned: {(String.IsNullOrEmpty(String.IsInterned(s3)) ? "No" : "Yes")}");
+            Console.WriteLine("=> ReferenceEquals(s3, s4): " + ReferenceEquals(s3, s4));
+            Console.WriteLine($"=> s3({s3}) interned: {(string.IsNullOrEmpty(string.IsInterned(s3)) ? "No" : "Yes")}");
             Console.WriteLine();
         }
 
@@ -33,14 +33,14 @@ namespace ExampleCSharp
             Person o3 = o2;
 
             Console.WriteLine("o1 = new Person();\no2 = new Person();\no3 = o2;");
-            Console.WriteLine("=> ReferenceEquals(o1, o2): " + Object.ReferenceEquals(o1, o2));
-            Console.WriteLine("=> ReferenceEquals(o2, o3): " + Object.ReferenceEquals(o2, o3));
+            Console.WriteLine("=> ReferenceEquals(o1, o2): " + ReferenceEquals(o1, o2));
+            Console.WriteLine("=> ReferenceEquals(o2, o3): " + ReferenceEquals(o2, o3));
 
 
             o3 = new Person();
             Console.WriteLine("\no3 = new Person();");
-            Console.WriteLine("=> ReferenceEquals(o1, o2): " + Object.ReferenceEquals(o1, o2));
-            Console.WriteLine("=> ReferenceEquals(o2, o3): " + Object.ReferenceEquals(o2, o3));
+            Console.WriteLine("=> ReferenceEquals(o1, o2): " + ReferenceEquals(o1, o2));
+            Console.WriteLine("=> ReferenceEquals(o2, o3): " + ReferenceEquals(o2, o3));
             Console.WriteLine();
         }
 
@@ -49,7 +49,7 @@ namespace ExampleCSharp
             Console.WriteLine("--- Value Type ---");
             int num = 3;
             Console.WriteLine("num = 3;");
-            Console.WriteLine("=> ReferenceEquals(num, num): " + Object.ReferenceEquals(num, num));
+            Console.WriteLine("=> ReferenceEquals(num, num): " + ReferenceEquals(num, num));
             Console.WriteLine("=> Type of num: " + num.GetType());
             Console.WriteLine("=> Is value type: " + num.GetType().IsValueType);
 

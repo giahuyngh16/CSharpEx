@@ -44,6 +44,33 @@ namespace ExampleCSharp
             Console.WriteLine("User Name after reset: " + user.Name);
             Console.WriteLine("User Name in static list after reset: " + UserModel.users[0].Name);
         }
+
+        public static void Resize()
+        {
+            var list = new int[] { 1, 2, 3 };
+
+            foreach (var item in list) // result: 123
+            {
+                Console.Write(item);
+            }
+            Console.WriteLine();
+
+            Array.Resize(ref list, list.Length - 1);
+
+            foreach (var item in list) // result: 12
+            {
+                Console.Write(item);
+            }
+            Console.WriteLine();
+
+            Array.Resize(ref list, list.Length + 1);
+
+            foreach (var item in list) // result: 12?
+            {
+                Console.Write(item);
+            }
+            Console.WriteLine();
+        }
     }
 
     public class RefWithParameters

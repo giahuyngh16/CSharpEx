@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\truc.nguyen\\Desktop\\STS-Studies\\C#\\CSharpEx\\AbstractClassAndInterface\\AbstractClassAndInterface.csproj": {}
+    "D:\\Roadmap\\CSharpEx\\AbstractClassAndInterface\\AbstractClassAndInterface.csproj": {}
   },
   "projects": {
-    "C:\\Users\\truc.nguyen\\Desktop\\STS-Studies\\C#\\CSharpEx\\AbstractClassAndInterface\\AbstractClassAndInterface.csproj": {
+    "D:\\Roadmap\\CSharpEx\\AbstractClassAndInterface\\AbstractClassAndInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\truc.nguyen\\Desktop\\STS-Studies\\C#\\CSharpEx\\AbstractClassAndInterface\\AbstractClassAndInterface.csproj",
+        "projectUniqueName": "D:\\Roadmap\\CSharpEx\\AbstractClassAndInterface\\AbstractClassAndInterface.csproj",
         "projectName": "AbstractClassAndInterface",
-        "projectPath": "C:\\Users\\truc.nguyen\\Desktop\\STS-Studies\\C#\\CSharpEx\\AbstractClassAndInterface\\AbstractClassAndInterface.csproj",
-        "packagesPath": "C:\\Users\\truc.nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\truc.nguyen\\Desktop\\STS-Studies\\C#\\CSharpEx\\AbstractClassAndInterface\\obj\\",
+        "projectPath": "D:\\Roadmap\\CSharpEx\\AbstractClassAndInterface\\AbstractClassAndInterface.csproj",
+        "packagesPath": "C:\\Users\\huy.nguyengia\\.nuget\\packages\\",
+        "outputPath": "D:\\Roadmap\\CSharpEx\\AbstractClassAndInterface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\truc.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\huy.nguyengia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

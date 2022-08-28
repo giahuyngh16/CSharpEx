@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\truc.nguyen\\Desktop\\STS-Studies\\C#\\CSharpEx\\ExampleCSharp\\ExampleCSharp.csproj": {}
+    "D:\\Roadmap\\CSharpEx\\ExampleCSharp\\ExampleCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\truc.nguyen\\Desktop\\STS-Studies\\C#\\CSharpEx\\ExampleCSharp\\ExampleCSharp.csproj": {
+    "D:\\Roadmap\\CSharpEx\\ExampleCSharp\\ExampleCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\truc.nguyen\\Desktop\\STS-Studies\\C#\\CSharpEx\\ExampleCSharp\\ExampleCSharp.csproj",
+        "projectUniqueName": "D:\\Roadmap\\CSharpEx\\ExampleCSharp\\ExampleCSharp.csproj",
         "projectName": "ExampleCSharp",
-        "projectPath": "C:\\Users\\truc.nguyen\\Desktop\\STS-Studies\\C#\\CSharpEx\\ExampleCSharp\\ExampleCSharp.csproj",
-        "packagesPath": "C:\\Users\\truc.nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\truc.nguyen\\Desktop\\STS-Studies\\C#\\CSharpEx\\ExampleCSharp\\obj\\",
+        "projectPath": "D:\\Roadmap\\CSharpEx\\ExampleCSharp\\ExampleCSharp.csproj",
+        "packagesPath": "C:\\Users\\huy.nguyengia\\.nuget\\packages\\",
+        "outputPath": "D:\\Roadmap\\CSharpEx\\ExampleCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\truc.nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\huy.nguyengia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,18 +52,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.21, 3.1.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

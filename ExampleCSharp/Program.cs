@@ -28,8 +28,18 @@ namespace ExampleCSharp
             //RefOutWithParameters.Resize();
             #endregion
 
-            //StringCSharp str = new StringCSharp();
+            StringCSharp str = new StringCSharp();
+
+            // String interpolation
+            //str.StringInterpolation();
+
+            // String with format standard
+            //str.StringWithFormatStandard();
+
+            // Compare 
             //str.CompareStringAndStringBuilder();
+            str.StringWithCommonMethod();
+
 
             // abstract 
             //AbstractJob job1 = new JavaCoding();

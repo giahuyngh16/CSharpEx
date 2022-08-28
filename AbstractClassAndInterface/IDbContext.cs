@@ -3,7 +3,12 @@ using System.Threading.Tasks;
 
 namespace AbstractClassAndInterface
 {
-    public interface IDbContext
+    public interface IDbContext : IBaseDbContext
+    {
+       
+    }
+
+    public interface IBaseDbContext
     {
         int SaveChanges();
         Task<int> SaveChangesAsync();

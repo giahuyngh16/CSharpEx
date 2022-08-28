@@ -8,23 +8,24 @@ namespace ExampleCSharp
         static void Main(string[] args)
         {
             #region Value-Reference Type
-            // ValueReferenceType.ReferenceTypeWithString();
+            //ValueReferenceType.ReferenceTypeWithString();
             //ValueReferenceType.ReferenceTypeWithObject();
-            // ValueReferenceType.ValueType();
+            //ValueReferenceType.ValueType();
             #endregion
 
+            #region Readolny
             //ReadOnly
             //SampleClass s1 = new SampleClass(11, 21, 32);   // OK
             //Console.WriteLine("p1: x={0}, y={1}, z={2}", s1.x, s1.y, s1.z);
             //SampleClass s2 = new SampleClass();
             //s2.x = 55;   // OK
             //Console.WriteLine("p2: x={0}, y={1}, z={2}", s2.x, s2.y, s2.z);
-
+            #endregion
 
             #region Ref-Out
             //RefOutWithParameters.OutTryGet();
             //RefOutWithParameters.RefValueType();
-            //RefOutWithParameters.RefReferenceType();
+            RefOutWithParameters.RefReferenceType();
             //RefOutWithParameters.Resize();
             #endregion
 
@@ -41,6 +42,7 @@ namespace ExampleCSharp
             str.StringWithCommonMethod();
 
 
+            #region Abstract
             // abstract 
             //AbstractJob job1 = new JavaCoding();
             //job1.DoJob();
@@ -61,7 +63,9 @@ namespace ExampleCSharp
             //job3.DoJob();
             //String jobName3 = job3.GetJobName();
             //Console.WriteLine("Job Name 3= " + jobName3);
+            #endregion
 
+            #region Using & Dispose
             //UsingAndDispose usi = new UsingAndDispose();
             //usi.UseUsing();
 
@@ -69,6 +73,7 @@ namespace ExampleCSharp
             //{
             //    myDisposable.DoSomething();
             //}
+            #endregion
         }
     }
 }

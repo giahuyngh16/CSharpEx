@@ -6,6 +6,7 @@ namespace ExampleCSharp
     {
         public static void OutTryGet()
         {
+            Console.WriteLine("--- Out With Try Get---");
             var exampleOut = new OutWithParameters();
             int id = 1;
             while (id > 0)
@@ -65,7 +66,7 @@ namespace ExampleCSharp
 
             Array.Resize(ref list, list.Length + 1);
 
-            foreach (var item in list) // result: 12?
+            foreach (var item in list) // result: 120?
             {
                 Console.Write(item);
             }
@@ -75,23 +76,28 @@ namespace ExampleCSharp
 
     public class RefWithParameters
     {
-        public void Increment(ref int num)
-        {
-            num++;
-        }
 
         public void IncrementWithoutRef(int num)
         {
             num++;
         }
 
+        public void Increment(ref int num)
+        {
+            num++;
+        }
+
         public void ResetUserNameToDefault(ref UserModel user)
         {
+            user = new UserModel();
+            //new 
             user.Name = "username";
         }
 
         public void ResetUserNameToDefaultWithoutRef(UserModel user)
         {
+            user = new UserModel();
+            //new 
             user.Name = "username without ref";
         }
     }

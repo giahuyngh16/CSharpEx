@@ -23,6 +23,8 @@ namespace ExampleCSharp
             Console.WriteLine("=> ReferenceEquals(s3, s4): " + ReferenceEquals(s3, s4));
             Console.WriteLine($"=> s3({s3}) interned: {(string.IsNullOrEmpty(string.IsInterned(s3)) ? "No" : "Yes")}");
             Console.WriteLine();
+
+            //string s5 = "StringA";
         }
 
         public static void ReferenceTypeWithObject()
@@ -47,11 +49,11 @@ namespace ExampleCSharp
         public static void ValueType()
         {
             Console.WriteLine("--- Value Type ---");
-            int num = 3;
-            Console.WriteLine("num = 3;");
-            Console.WriteLine("=> ReferenceEquals(num, num): " + ReferenceEquals(num, num));
-            Console.WriteLine("=> Type of num: " + num.GetType());
-            Console.WriteLine("=> Is value type: " + num.GetType().IsValueType);
+            int num1 = 3;
+            Console.WriteLine("num1 = 3;      -> 0x239110: 3");
+            int num2 = num1;
+            Console.WriteLine("num2 = num1;   -> 0x239351: 3");
+            Console.WriteLine("=> ReferenceEquals(num1, num2): " + ReferenceEquals(num1, num2));
 
             Console.WriteLine();
         }

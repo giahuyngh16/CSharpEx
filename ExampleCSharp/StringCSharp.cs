@@ -9,29 +9,35 @@ namespace ExampleCSharp
 {
     public class StringCSharp
     {
-         string oldPath = "c:\\Program Files\\Microsoft Visual Studio 8.0";
+         string oldPath = "c:\\Program Files\\Microsoft Visual Studio \"8.0\"";
 
         // Initialize with a verbatim string literal.
-         string newPath = @"c:\Program Files\Microsoft Visual Studio 9.0";
+         string newPath = @"c:\Program Files\Microsoft Visual Studio ""9.0""";
 
         public void FormatString()
         {
             string name = "Ed Sheeran";
             string food = "apple";
 
-            string strFormat = String.Format("{0} eats {1}", name, food);
+            string strFormat = String.Format("{0:C} eats {1}", name, food);
             Console.WriteLine(strFormat);
 
             string strFormat1 = String.Format("{0, 20}", "Programiz");
             Console.WriteLine(strFormat1);
         }
 
+        enum MyEnum
+        {
+            a = 1 
+        }
+
         public void StringInterpolation()
         {
             string name = "Huy";
             string location = "Ho Chi Minh";
+            //FormattableString
             DateTime date = DateTime.Now;
-            string msg = $"Hi {name}, today is {date.DayOfWeek}. Welcome to {location}";
+            string msg = $"Hi {name}, {MyEnum.a} today is {date.DayOfWeek}. Welcome to {location}";
             Console.WriteLine(msg);
         }
 
@@ -69,11 +75,11 @@ namespace ExampleCSharp
         {
 
             DateTime date = DateTime.Now;
-            string msg = $"Hi, Today is: {date:dd/MM/yyyyy}";
+            string msg = $"Hi, Today is: {date:dddd/MMmmm/yyyy / HH/ss}";
             Console.WriteLine(msg);
 
             // Currency
-            var decimalValue = 120.456;
+            var decimalValue = 120.23456;
             var asCurrency = $"It costs {decimalValue:C}";
             Console.WriteLine(msg);
 

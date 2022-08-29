@@ -12,6 +12,7 @@ namespace AbstractClassAndInterface
     {
         int SaveChanges();
         Task<int> SaveChangesAsync();
+
         EntityEntry Add(object entity);
     }
 }

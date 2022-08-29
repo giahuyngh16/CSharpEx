@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dQZvPlCwbDvI50PlqdpkivVdE/Zva7A+w5I3MFYKVZ4B7PtPHPQvaJI8hlSb5BeoVu+YIzDEzFJOHE4Em1aoFg==",
+  "dgSpecHash": "z1jPDbetYS1/YmJP9Olb1Ij3rkWDAtbf6fZM+5Xx8Qoa2zLXBar3KsDkhKAKKDbLcW675O1PVZ54zY2M0q+uKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\truc.nguyen\\Desktop\\STS-Studies\\C#\\CSharpEx\\ExampleCSharp\\ExampleCSharp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\truc.nguyen\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Roadmap\\CSharpEx\\ExampleCSharp\\ExampleCSharp.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

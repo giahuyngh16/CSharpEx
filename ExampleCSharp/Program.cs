@@ -25,7 +25,7 @@ namespace ExampleCSharp
             #region Ref-Out
             //RefOutWithParameters.OutTryGet();
             //RefOutWithParameters.RefValueType();
-            RefOutWithParameters.RefReferenceType();
+            //RefOutWithParameters.RefReferenceType();
             //RefOutWithParameters.Resize();
             #endregion
 

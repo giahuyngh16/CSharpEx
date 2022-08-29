@@ -8,10 +8,12 @@ namespace AbstractClassAndInterface
     {
         protected virtual void OnConfiguring()
         {
+            // do something
         }
 
         protected virtual void OnModelCreating()
         {
+            // do something
         }
     }
 }

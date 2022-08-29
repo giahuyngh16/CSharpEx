@@ -6,7 +6,7 @@ namespace ExampleCSharp
     {
         public static void OutTryGet()
         {
-            Console.WriteLine("--- Out With Try Get---");
+            Console.WriteLine("--- Out With Try Get ---");
             var exampleOut = new OutWithParameters();
             int id = 1;
             while (id > 0)
@@ -15,11 +15,25 @@ namespace ExampleCSharp
                 id = int.Parse(Console.ReadLine());
                 exampleOut.GetUserById(id);
                 Console.WriteLine();
+
+
+                //Console.WriteLine("Input Id to get dead information of character: ");
+                //id = int.Parse(Console.ReadLine());
+                //bool isDead = exampleOut.TryGetDeadInformationByCharacterId(id, out int numOfDeaths, out DateTime lastTimeOfDeath);
+
+                //Console.WriteLine(isDead
+                //    ? $@"--Dead Information of character: {id}.
+                //Number of deaths: {numOfDeaths}.
+                //Last time of deaths: {lastTimeOfDeath:F}."
+                //    : "The character is not dead.");
+                //Console.WriteLine();
             }
         }
 
+
         public static void RefValueType()
         {
+            Console.WriteLine("--- Ref Value Type ---");
             var exampleRefValueType = new RefWithParameters();
             int num = 1;
             Console.WriteLine("Number before reset: " + num);
@@ -29,10 +43,12 @@ namespace ExampleCSharp
 
             exampleRefValueType.Increment(ref num);
             Console.WriteLine("Number after reset: " + num);
+            Console.WriteLine();
         }
 
         public static void RefReferenceType()
         {
+            Console.WriteLine("--- Ref Reference Type ---");
             var exampleRefValueType = new RefWithParameters();
             var user = UserModel.users[0];
             Console.WriteLine("User Name before reset: " + user.Name);
@@ -44,6 +60,7 @@ namespace ExampleCSharp
             exampleRefValueType.ResetUserNameToDefault(ref user);
             Console.WriteLine("User Name after reset: " + user.Name);
             Console.WriteLine("User Name in static list after reset: " + UserModel.users[0].Name);
+            Console.WriteLine();
         }
 
         public static void Resize()
@@ -66,7 +83,7 @@ namespace ExampleCSharp
 
             Array.Resize(ref list, list.Length + 1);
 
-            foreach (var item in list) // result: 120?
+            foreach (var item in list) // result: 12?
             {
                 Console.Write(item);
             }
@@ -89,15 +106,15 @@ namespace ExampleCSharp
 
         public void ResetUserNameToDefault(ref UserModel user)
         {
-            user = new UserModel();
-            //new 
-            user.Name = "username";
+            user = new UserModel
+            {
+                Name = "username"
+            };
         }
 
         public void ResetUserNameToDefaultWithoutRef(UserModel user)
         {
             user = new UserModel();
-            //new 
             user.Name = "username without ref";
         }
     }
@@ -118,6 +135,36 @@ namespace ExampleCSharp
 
             return user;
         }
+
+        public bool TryGetDeadInformationByCharacterId(int id, out int numOfDeaths, out DateTime lastTimeOfDeath)
+        {
+            numOfDeaths = GetNumberOfDeathsByCharacterId(id);
+            lastTimeOfDeath = GetLastTimeOfDeathByCharacterId(id);
+
+            if (numOfDeaths != 0 && lastTimeOfDeath != DateTime.MinValue)
+            {
+                return true;
+            }
+
+            int GetNumberOfDeathsByCharacterId(int id)
+            {
+                if (id == 1)
+                    return 0;
+                else
+                    return 5;
+            }
+
+            DateTime GetLastTimeOfDeathByCharacterId(int id)
+            {
+                if (id == 1)
+                    return DateTime.MinValue;
+                else
+                    return DateTime.Now;
+            }
+
+            return false;
+        }
+
     }
 
     public class OutWithParameters<T>

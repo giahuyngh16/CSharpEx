@@ -25,11 +25,11 @@ namespace ExampleCSharp
             #region Ref-Out
             //RefOutWithParameters.OutTryGet();
             //RefOutWithParameters.RefValueType();
-            RefOutWithParameters.RefReferenceType();
+            //RefOutWithParameters.RefReferenceType();
             //RefOutWithParameters.Resize();
             #endregion
 
-            StringCSharp str = new StringCSharp();
+            //StringCSharp str = new StringCSharp();
 
             // String interpolation
             //str.StringInterpolation();
@@ -39,7 +39,25 @@ namespace ExampleCSharp
 
             // Compare 
             //str.CompareStringAndStringBuilder();
-            str.StringWithCommonMethod();
+            //str.StringWithCommonMethod();
+
+
+            #region Equal
+            //var obj1 = new Equal();
+            //obj1.Name = "Huy Nguyen Gia";
+            //obj1.Age = 22;
+
+            //var obj2 = new Equal();
+            //obj2.Name = "Huy Nguyen Gia";
+            //obj2.Age = 22;
+
+            //Console.WriteLine(obj1 == obj2);
+            //Console.WriteLine(obj1.Equals(obj2));
+
+            //var obj = new Equal();
+            //obj.Compare();
+
+            #endregion
 
 
             #region Abstract
